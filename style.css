@@ -127,6 +127,56 @@ h1{
 /* left-sid end  */
 
 /* right side */
+.right-side{
+  width: 40vw;
+  height: 100vh;
+  position: absolute;
+  top: 0;
+  right: 0;
+  background: rgba(110,110,110,0.2);
+  box-shadow: 0 8 32 0 rgba(0 ,0 ,0 ,0.37);
+  backdrop-filter: blur(10px);
+  border:1px solid rgba(255,255,255,0.18);
+  overflow-y: scroll;
+  padding:3em 2em;
+}
+.right-side form{
+  margin-bottom:3em;
+}
+.right-side .submit{
+  position: absolute;
+  top:0;
+  right:0;
+  padding:1.5rem;
+  margin:0;
+  border:none;
+  outline:none;
+  background:#fa6d1b;
+  color:#fff;
+  cursor: pointer;
+  font-size:1.5rem;
+  transition: 0.4s;
+}
+.submit:hover{
+  background:#fff;
+  color:#000;
+}
+.search , input:focus{
+  background:none;
+  border:none;
+  border-bottom:1px #ccc solid;
+  padding: 0 1em 0.5em 0;
+  width:80%;
+  color:#fff;
+  font-size:1.1rem;
+}
+
+
+
+
+
+
+
 .right-side .others {
   display: flex;
   flex-direction: column;
@@ -136,7 +186,6 @@ h1{
   margin: 10px 0;
   border: 1px solid #eee;
 }
-
 .right-side .others .weather-item {
   display: flex;
   justify-content: space-between;
