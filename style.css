@@ -136,7 +136,6 @@ h1 {
   top: 0;
   right: 0;
   background: rgba(110, 110, 110, 0.2);
-  box-shadow: 0 8 32 0 rgba(0, 0, 0, 0.37);
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.18);
   overflow-y: scroll;
@@ -175,20 +174,20 @@ h1 {
 .search:focus {
   outline: none;
 }
-.right-side ul{
+.right-side ul {
   padding: 0 0 1em 0;
-  margin:2em 0;
+  margin: 2em 0;
   border-bottom: 1px solid #ccc;
 }
-.right-side ul li{
+.right-side ul li {
   list-style: none;
-  margin:2.5em 0;
+  margin: 2.5em 0;
 }
-.city{
-  display:block;
+.city {
+  display: block;
   cursor: pointer;
 }
-.city:hover{
+.city:hover {
   color: #fff;
 }
 .right-side .others {
@@ -200,19 +199,17 @@ h1 {
   margin: 10px 0;
   border: 1px solid #eee;
 }
-.right-side .others-heading{
-  justify-content: center;  
+.right-side .others-heading {
+  justify-content: center;
   display: flex;
   margin-bottom: 20px;
 }
 .right-side .others .weather-item {
   display: flex;
   justify-content: space-between;
-  margin-bottom:10px;
+  margin-bottom: 10px;
 }
 /* right side end  */
-
-
 
 /* @media screen and (max-width: 800px) {
   .container {
