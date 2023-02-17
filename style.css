@@ -28,7 +28,7 @@ body::before {
   padding: 20px 70px;
   color: #fff;
   position: relative;
-  transition: all 0.5s ease;
+  transition: all 0.5s;
   opacity: 1;
   display: flex;
 }
@@ -80,10 +80,11 @@ h1 {
 #weather-icon {
   display: block;
   margin: 0.5em 0;
+  height: 70px;
+  width: 70px;
 }
 #condition {
-  font-size: 1.5em;
-  margin-left: 10px;
+  font-size: 1.7em;
 }
 
 .future-forecast {
@@ -139,7 +140,7 @@ h1 {
   backdrop-filter: blur(10px);
   border: 1px solid rgba(255, 255, 255, 0.18);
   overflow-y: scroll;
-  padding: 3em 2em;
+  padding: 2.5em 2em 0em 2em;
 }
 .right-side form {
   margin-bottom: 3em;
@@ -207,27 +208,28 @@ h1 {
 .right-side .others .weather-item {
   display: flex;
   justify-content: space-between;
+  margin-bottom:10px;
 }
 /* right side end  */
 
 
 
-@media screen and (max-width: 800px) {
+/* @media screen and (max-width: 800px) {
   .container {
     padding: 10px;
     font-size: 12px;
   }
   .left-side , .right-side{
     width: 100%;
-    position: relative;
+    position: absolute;
     top: initial;
   }
-  .future-forecast {
+  /* .future-forecast {
     justify-content: start;
     align-items: none;
     overflow-y: scroll;
-  }
-}
+  } */
+/*}
 
 @media screen and (max-width: 1400px) {
   .future-forecast {
@@ -235,4 +237,4 @@ h1 {
     align-items: none;
     overflow-x: scroll;
   }
-}
+} */
